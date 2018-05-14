@@ -20,6 +20,20 @@ bin/telegram-cli --help
 
 The main mode of the Telegram CLI consists of an interactive command-line. The usage of the commands available in this command-line are listed [here](https://github.com/vysheng/tg#supported-commands).
 
+### Persist Authentication
+
+By default, each time you run the Docker image and start the Telegram CLI, you have to authenticate to Telegram with an SMS code.
+
+The Telegram CLI saves this authentication information in the directory `/root/.telegram-cli`.
+
+To persist this data across runs of the Docker image on your machine, you can use a Docker volume:
+
+~~~bash
+dk run -ti -v /some/directory:/root/.telegram-cli weibeld/ubuntu-telegram-cli
+~~~
+
+In this way, when you run the Docker image another time, you can log in to your Telegram account without a verification SMS code.
+
 ## Version
 
 The installed version of Telegram CLI is the latest one from the [GitHub repository](https://github.com/vysheng/tg), which currently is **1.4.1**.
