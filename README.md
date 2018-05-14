@@ -29,3 +29,7 @@ The installed version of Telegram CLI is the latest one from the [GitHub reposit
 This image lets you to start the Telegram CLI yourself.
 
 If you want to be taken directly into the interactive Telegram CLI command-line, you can use, for example, [frankwolf/telegram-cli](https://hub.docker.com/r/frankwolf/telegram-cli/).
+
+## Docker Hub
+
+This image is on Docker Hub as [weibeld/ubuntu-telegram-cli](https://hub.docker.com/r/weibeld/ubuntu-telegram-cli/).
