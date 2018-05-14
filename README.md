@@ -18,11 +18,11 @@ You can now run the Telegram CLI like this:
 bin/telegram-cli --help
 ~~~
 
-The main mode of Telegram CLI has an interactive command-line. The available commands in this command-line are listed [here](https://github.com/vysheng/tg#supported-commands)
+The main mode of the Telegram CLI consists of an interactive command-line. The usage of the commands available in this command-line are listed [here](https://github.com/vysheng/tg#supported-commands).
 
 ## Version
 
-The installed version of [telegram-cli](https://github.com/vysheng/tg) is the latest one from the GitHub repository, which currently is **1.4.1**.
+The installed version of Telegram CLI is the latest one from the [GitHub repository](https://github.com/vysheng/tg), which currently is **1.4.1**.
 
 ## Note
 
