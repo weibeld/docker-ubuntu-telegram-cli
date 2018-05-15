@@ -22,7 +22,7 @@ The main mode of the Telegram CLI consists of an interactive command-line. The u
 
 ### Persist Authentication
 
-By default, each time you run the Docker image and start the Telegram CLI, you have to authenticate to Telegram with an SMS code.
+By default, each time you run the Docker image and start the Telegram CLI, you have to type in your phone number and authenticate yourself with an SMS code.
 
 The Telegram CLI saves this authentication information in the directory `/root/.telegram-cli`.
 
