@@ -29,7 +29,7 @@ The Telegram CLI saves this authentication information in the directory `/root/.
 To persist this data across runs of the Docker image on your machine, you can use a Docker volume:
 
 ~~~bash
-dk run -ti -v /some/directory:/root/.telegram-cli weibeld/ubuntu-telegram-cli
+docker run -ti -v /some/directory:/root/.telegram-cli weibeld/ubuntu-telegram-cli
 ~~~
 
 In this way, when you run the Docker image another time, you can log in to your Telegram account without a verification SMS code.
