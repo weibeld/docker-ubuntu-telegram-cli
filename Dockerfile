@@ -9,4 +9,6 @@ WORKDIR /root/tg
 RUN ./configure
 RUN make
 
+RUN echo -e "set input-meta on\nset output-meta on\nset convert-meta off" >/root/.inputrc
+
 CMD bash
