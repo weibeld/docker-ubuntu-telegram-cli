@@ -9,6 +9,8 @@ WORKDIR /root/tg
 RUN ./configure
 RUN make
 
+RUN apt-get update && apt-get install -y vim
+RUN apt-get update && apt-get install -y iptables ufw ruby
 RUN echo "set input-meta on\nset output-meta on\nset convert-meta off" >/root/.inputrc
 
 CMD bash
